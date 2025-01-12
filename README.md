@@ -1,66 +1,36 @@
-# Personal Portfolio
+# Project Overview
 
-This is a personal portfolio website created using **HTML** and **CSS**. It showcases my skills, projects, and contact information, serving as an introduction to potential collaborators, clients, or employers.
+This repository contains three different tasks demonstrating web development concepts using HTML, CSS, and JavaScript. Below are the summaries of each task:
 
-## Features
+## Task 1: Portfolio Page
 
-### 1. Hero Section
-- A personalized greeting with my name.
-- A navigation link to the "About Me" section.
+This task focuses on creating a personal portfolio webpage using HTML and CSS. The page includes essential sections such as an introduction, skills, projects, and contact information. It uses a modern design with a responsive layout, showcasing the developer's skills, projects, and experience.
 
-### 2. Navigation Bar
-- Smooth navigation across different sections: Home, About, Projects, and Contact.
+- **Key Features**: 
+  - Introduction section with a brief about the developer
+  - Skills and projects sections to highlight expertise and work
+  - Contact form for potential clients or collaborators
 
-### 3. About Section
-- Displays a profile picture.
-- Includes a brief bio highlighting:
-  - My background and interests.
-  - Key technical skills:
-    - HTML
-    - CSS
-    - Java
-    - Python
-    - SQL
-    - JavaScript
-    - React
-- Includes a button to download my resume.
+---
 
-### 4. Projects Section
-- Showcases two featured projects:
-  1. **AI-Powered Product Recommendation Chatbot**:
-     - Uses artificial intelligence to provide personalized product recommendations.
-     - Enhances user experience with tailored suggestions.
-  2. **Interactive Quiz Game**:
-     - Built with Java, featuring real-time scoring and dynamic question sets.
-     - Highlights programming and creativity in designing interactive applications.
+## Task 2: Landing Page
 
-### 5. Contact Section
-- A simple form to submit queries, including:
-  - Name
-  - Email
-  - Message
-- A "Submit" button for inquiries.
+A simple, responsive landing page built using HTML and CSS. It provides a clean, minimal design, featuring a modern layout with a navigation header, content section, and footer. The project uses CSS Grid for layout alignment and basic styles for a neat, user-friendly design.
 
-### 6. Footer
-- Links to my GitHub profile and email.
-- A "Return to Top" button for easy navigation.
-- Displays copyright information.
+- **Key Features**: 
+  - Responsive layout with CSS Grid
+  - A structured and clean design
+  - Simple content layout for a landing page
 
-## Technologies Used
-- **HTML**: For structuring the webpage.
-- **CSS**: For styling and layout design.
+---
 
-## How to Run
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-2. Navigate to the project folder:
-   ```bash
-   cd portfolio
+## Task 3: Basic Calculator
 
-## How to View the Portfolio
-- Open `portfolio.html` in your web browser to view the portfolio.
+A basic interactive calculator that performs arithmetic operations such as addition, subtraction, multiplication, and division. This project demonstrates the usage of HTML for structure, CSS for styling, and JavaScript for handling user input and calculations. The calculator uses a simple grid layout for buttons and provides an intuitive user experience.
 
-## Screenshots
-![portfolio](https://github.com/user-attachments/assets/1151ad14-1af2-4024-aa67-67705b64ba81)
+- **Key Features**: 
+  - Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
+  - Responsive button layout using CSS Grid
+  - Interactive JavaScript functionality with event listeners for button clicks
 
+---
