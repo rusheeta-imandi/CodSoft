@@ -66,11 +66,11 @@ The project is organized into the following structure for ease of navigation and
 ## Acknowledgments
 This project was made possible with the help of the following resources:
 
-[Font Awesome](https://fontawesome.com/): For providing high-quality icons used in the navigation and footer.
-[Google Fonts](https://fonts.google.com/): For offering modern and elegant fonts for typography.
-[Unsplash](https://unsplash.com/): For providing free, high-resolution images used throughout the project.
-Inspiration from various open-source landing page designs.
-Special thanks to the open-source community for their incredible contributions and support
+- [Font Awesome](https://fontawesome.com/): For providing high-quality icons used in the navigation and footer.
+- [Google Fonts](https://fonts.google.com/): For offering modern and elegant fonts for typography.
+- [Unsplash](https://unsplash.com/): For providing free, high-resolution images used throughout the project.
+- Inspiration from various open-source landing page designs.
+- Special thanks to the open-source community for their incredible contributions and support
 
 ## Author
 This project was designed and developed by:
