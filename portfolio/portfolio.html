@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Rusheeta</span></h1>
+            <p>Nice to meet you!</p>
+            <div class="button-container">
+                <a href="#about" class="button-underline">About Me</a>
+            </div>
+        </div>
+    </section>
+    <nav class="navigation-bar">
+        <ul class="navigation">
+            <li class="navigation__item" id="nav-hero"><a href="#hero">Home</a></li>
+            <li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
+            <li class="navigation__item" id="nav-projects"><a href="#projects">Projects</a></li>
+            <li class="navigation__item" id="nav-contact"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="about-section" id="about">
+        <h2 class="section-heading">About</h2>
+        <div class="about-container">
+            <div class="about-column">
+                <img src="./images/profile-picture-cropped.JPG" alt="Profile Picture" class="profile-picture">
+                <p class="cta-text overview">
+                    I am a full-stack developer who embraces lifelong learning, driven by a passion for JavaScript,
+                    React, and all things web development. What excites me most is the perfect mix of creativity,
+                    problem-solving, and technology that this field offers, along with the constant opportunities to
+                    explore and innovate.Outside of coding, I enjoy reading, dancing, and playing the guitar to keep my
+                    creativity flowing.
+                </p>
+            </div>
+            <div class="skills">
+                <div class="skills__row">
+                    <div class="skills__item skills__item--react skills__item-fade-in"><img src="./images/html.png"
+                            alt="">
+                        <div class="skills__item-name">HTML</div>
+                    </div>
+                    <div class="skills__item skills__item--npm skills__item-fade-in"><img src="./images/css.png" alt="">
+                        <div class="skills__item-name">CSS</div>
+                    </div>
+                </div>
+                <div class="skills__row">
+                    <div class="skills__item skills__item--sass skills__item-fade-in"><img src="./images/java.png"
+                            alt="">
+                        <div class="skills__item-name">JAVA</div>
+                    </div>
+                    <div class="skills__item skills__item--webpack skills__item-fade-in"><img src="./images/python.png"
+                            alt="">
+                        <div class="skills__item-name">PYTHON</div>
+                    </div>
+                    <div class="skills__item skills__item--r skills__item-fade-in"><img src="./images/sql.svg" alt="">
+                        <div class="skills__item-name">SQL</div>
+                    </div>
+                </div>
+                <div class="skills__row">
+                    <div class="skills__item skills__item--js skills__item-fade-in"><img src="./images/js.png" alt="">
+                        <div class="skills__item-name">JAVASCRIPT</div>
+                    </div>
+                    <div class="skills__item skills__item--css skills__item-fade-in"><img src="./images/react.png"
+                            alt="">
+                        <div class="skills__item-name">REACT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="cta-text">
+            Interested in learning more about my journey, skills, and experiences? Click the button below to download my
+            resume and explore how I can contribute to your projects or team.
+        </p>
+        <div class="button-container">
+            <a href="#about" class="button-underline">Download CV</a>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="section-heading">Projects</h2>
+        <div class="marketing-component">
+            <div class="image-container">
+                <img src="./images/ai-chatbot-image.jpg" alt="Marketing Image">
+            </div>
+            <div class="text-box">
+                <h2>AI-Powered Product Recommendation Chatbot</h2>
+                <p>A smart chatbot leveraging artificial intelligence to deliver personalized product recommendations.
+                    Designed to enhance user experience by understanding preferences and providing tailored suggestions,
+                    this project showcases the seamless integration of AI and customer engagement.</p>
+                <button type="button" class="button-underline">Learn More</button>
+            </div>
+        </div>
+        <div class="marketing-component reverse">
+            <div class="text-box">
+                <h2>Interactive Quiz Game</h2>
+                <p>A fun and engaging quiz game built using Java, featuring a dynamic question set, real-time scoring,
+                    and intuitive user interaction. This project highlights strong programming skills and creativity in
+                    designing interactive applications.</p>
+                <button type="button" class="button-underline">Learn More</button>
+            </div>
+            <div class="image-container">
+                <img src="./images/quiz.jpg" alt="Marketing Image">
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="section-heading">Contact</h2>
+        <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you
+            as soon as possible.</p>
+        <form class="contact__form" action="">
+            <input class="contact__form-name" name="name" placeholder="Name">
+            <input class="contact__form-email" type="email" name="_replyto" placeholder="Email">
+            <textarea class="contact__form-message" name="message" placeholder="Message"></textarea>
+            <div class="contact__form-submit">
+                <button type="button" class="button-underline" id="form-submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <a href="#hero">
+            <div class="return-home">
+                <img src="./images/icons8-double-up-25.png" alt="">
+            </div>
+        </a>
+        <div class="socials"><a href="https://github.com/bscottnz" target="_blank">
+                <div class="socials__github"><img src="./images/github-logo.png" alt="">
+                </div>
+            </a><a href="mailto:rusheeta.imandi@gmail.com" target="_blank">
+                <div class="socials__email"><img src="./images/mail.png" alt=""></div>
+            </a></div>
+        <p class="copyright">Copyright © 2024 by Rusheeta Imandi | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
